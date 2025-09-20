@@ -1,11 +1,11 @@
 # RAG--Enhanced-Medical-Chatbot
-🩺 RAG-Enhanced Medical Chatbot
+# 🩺 RAG-Enhanced Medical Chatbot
 
 A Retrieval-Augmented Generation (RAG) based chatbot designed to assist users with medical information and guidance. This project combines Large Language Models (LLMs) with a retrieval mechanism to provide reliable, context-aware, and accurate responses instead of relying purely on the model’s parametric memory.
 
 ⚠️ Disclaimer: This chatbot is built for educational and research purposes only. It is not a substitute for professional medical advice. Always consult a certified doctor for actual medical concerns.
 
-🚀 Features
+# 🚀 Features
 
 ✅ Medical Q&A: Users can ask health-related questions in natural language.
 
@@ -17,7 +17,7 @@ A Retrieval-Augmented Generation (RAG) based chatbot designed to assist users wi
 
 ✅ Interactive Chat Interface (via Streamlit/Notebook).
 
-🛠️ Tech Stack
+# 🛠️ Tech Stack
 
 Language Model: OpenAI GPT / Hugging Face (customizable)
 
@@ -28,16 +28,13 @@ Frameworks:
 LangChain
  for RAG pipeline
 
-Streamlit
- for UI (if implemented)
-
 Embeddings: Sentence Transformers / OpenAI embeddings
 
 Programming Language: Python
 
-Notebook Environment: Jupyter / Colab
+Notebook Environment: Jupyter 
 
-🏗️ System Architecture
+# 🏗️ System Architecture
 
 User Query → Entered via chat interface
 
@@ -51,27 +48,14 @@ Final Answer → Sent back to user in conversational format
 
 User Input → Embedding Model → Vector Store → Retriever → LLM → Response
 
-📂 Dataset / Knowledge Source
+# 📂 Dataset / Knowledge Source
 
-Trusted medical documents / FAQs / articles were embedded into a vector store for retrieval.
+* The_GALE_ENCYCLOPEDIA_of_MEDICINE_SECOND.pdf
 
-Supports addition of custom datasets (JSON, CSV, or text files).
 
-⚙️ Installation & Usage
-1️⃣ Clone the repository
-git clone https://github.com/your-username/rag-enhanced-medical-chatbot.git
-cd rag-enhanced-medical-chatbot
+Supports addition of custom datasets (JSON, CSV, or text files).y
 
-2️⃣ Install dependencies
-pip install -r requirements.txt
-
-3️⃣ Run the notebook
-jupyter notebook rag-enhanced-medical-chatbott.ipynb
-
-4️⃣ (Optional) Run Streamlit UI
-streamlit run app.py
-
-📊 Example Queries
+# 📊 Example Queries
 
 “What are the symptoms of diabetes?”
 
@@ -79,7 +63,7 @@ streamlit run app.py
 
 “What is the normal range for hemoglobin?”
 
-🔮 Future Improvements
+# 🔮 Future Improvements
 
 Add multilingual support for regional users.
 
